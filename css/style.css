@@ -78,15 +78,18 @@ body {
   display: flex;
 }
 
-.nome-img path {
+.home-img path {
   opacity: 0;
   cursor: pointer;
 }
 
-.nome-img path:hover {
+.home-img path:hover {
   opacity: 1;
 }
 
+path.current-floor{
+  opacity: 1;
+}
 .main-info {
   flex-grow: 1;
   text-align: center;
